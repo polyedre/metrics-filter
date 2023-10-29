@@ -1,0 +1,10 @@
+# Ignore Rust-specific files and directories
+target/
+
+# Ignore hidden files
+.*.swp
+.DS_Store
+
+# Ignore Dockerfile to avoid rebuilding all layers when modifying the
+# Dockerfile.
+Dockerfile
